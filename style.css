@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.container{
+    margin-bottom: 0px;
+    padding: 100px;
+    height: 80%;
+    width: 100vw;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 15);
+}
+#h1{
+    font-family: 'Poppins';
+    margin-bottom: 30px;
+    font-size: 64px;
+    text-align: center;
+}
+h2{
+    font-size: 15px;
+}
+#h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-data{
+    width: 100%;
+}
+.input-data h2{
+    margin: 10px 0;
+}
+.Username{
+    padding: 20px;
+    border-radius: 10px;
+}
+.Password{
+    padding: 20px;
+    border-radius: 10px;
+}
+.button-align{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+}
+.login{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.SignUp{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.login:hover{
+    background-color: darkgrey;
+}
+.SignUp:hover{
+    background-color: darkgrey;
+}
